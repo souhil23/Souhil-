@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADEM KHRAY</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>ADEM KHRAY</h1>
+    </header>
+
+    <section class="content">
+        <h2>⚽ الفريق الخاسر:</h2>
+        <p>Adem - Mehdi - Houssem - Mztola</p>
+    </section>
+
+    <section class="result">
+        <h2>🏆 النتيجة النهائية:</h2>
+        <p>تم نكحهم من قبل: Souhil - Ilyes - Mehdi - Bari</p>
+    </section>
+
+    <footer>
+        <p>تم إنشاء الموقع بواسطة [souhil]
+    </footer>
+</body>
+</html>
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: red;
+    color: white;
+    padding: 20px;
+    font-size: 24px;
+}
+
+.content, .result {
+    margin: 20px;
+    padding: 20px;
+    background: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
